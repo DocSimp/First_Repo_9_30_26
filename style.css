@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#fac9e9;
+    color: #2f2430;
+}
+.site-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 40px; 
+    background-color: white;
+}
+.nav-list {
+    display: flex;
+    gap: 20px; 
+    list-style: none;  
+    margin: 0;
+    padding: 0;
+}
+.nav-links a {
+    text-decoration: none; 
+    color: #2f2430; 
+    font-weight: bold; 
+}
+.brand span {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #2f2430; 
+}
+.hero h1 {
+    font-size: 48px; 
+    margin-bottom: 10px; 
+}
+.hero p {
+    font-size: 18px; 
+    margin-bottom: 1.6px; 
+}
+.btn {
+    display: inline-block; 
+    margin-top: 15px;
+    padding: 12px 20px; 
+    background-color: #2f2430; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 8px; 
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+.btn:hover {
+    background-color: #1a1619; 
+}
+.about-section {
+    padding: 60px 40px; 
+    text-align: center;
+    background-color: #f9f9f9; 
+}
+.about h2 {
+    font-size: 32px; 
+    margin-bottom: 15px; 
+}
+.about p {
+    font-size: 18px; 
+    max-width: 700px; 
+    margin: 0 auto; 
+    line-height: 1.7;
+}
+.projects {
+    padding: 60px 40px; 
+    background-color: #f0f0f0;
+    text-align: center; 
+}
+.project-list {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+}
+.project-item {
+    background-color: white; 
+    border-radius: 12px;
+    padding: 20px; 
+    border-radius: 12px; 
+    width: 280px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+.project-item img {
+    width: 100%; 
+    border-radius: 8px; 
+}   
+.project-item h3 {
+    font-size: 20px; 
+    margin-bottom: 8px; 
+    margin-top: 15px;
+    color:rgb(9, 28, 233)
+}
+.project-item p {
+    font-size: 16px; 
+    color: #555; 
+    line-height: 1.6;
+}
+.site-footer {
+    background-color: #2f2430; 
+    color: white; 
+    text-align: center; 
+    padding: 20px;
+}
+.eyebrow {
+    font-size: 40px; 
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: hwb(218 11% 28%); 
+    margin-bottom: 5px; 
+}
+.nav-list a:hover {
+    color: #1a1619; 
+}
+.page-hero {
+    padding: 70px 20px; 
+    text-align: center; 
+    background-color: #f9f9f9; 
+}
+.page-hero h1 {
+    font-size: 42px; 
+    margin-bottom: 15px; 
+}
+.skills{
+    padding: 60px 40px; 
+    background-color: #f0f0f0; 
+    text-align: center; 
+}
+.skills ul {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+.skills li {
+    background-color: white; 
+    border-radius: 12px; 
+    padding: 20px; 
+    width: 200px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+.strengths {
+    padding: 60px 40px; 
+    background-color: #f9f9f9; 
+    text-align: center; 
+}
+.strengths p {
+    font-size: 18px; 
+    max-width: 700px; 
+    margin: 0 auto; 
+    line-height: 1.7;
+}
+.about {
+    padding: 60px 40px; 
+    background-color: #f0f0f0; 
+    text-align: center; 
+    }
+.passport-section {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+.passport-card {
+    background-color: #fffdf7;
+    border: 2px solid #d8c7a1;
+    border-radius: 18px;
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    position: relative;
+}
+.passport-label {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #8a6d3b;
+    margin-bottom: 10px;
+}
+.passport-card h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #542c52;
+}
+.destination-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    border: 4px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.passport-text {
+    max-width: 650px;
+    margin: 25px auto 0;
+    line-height: 1.7;
+}
+.passport-stamp {
+    margin: 30px auto 0;
+    width: 220px;
+    border: 3px dashed #a44f85;
+    border-radius: 50%;
+    padding: 20px;
+    transform: rotate(-8deg);
+    color: #a44f85;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.passport-stamp p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.passport-stamp h3 {
+    margin: 8px 0 0;
+    font-size: 22px;
+}
+.about-headshot {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    margin-top: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+body {
+    background:
+        radial-gradient(circle at 10% 15%, #f6c9df 0%, transparent 30%),
+        radial-gradient(circle at 90% 20%, #c9dff2 0%, transparent 30%),
+        radial-gradient(circle at 75% 85%, #d4e8d4 0%, transparent 30%),
+        #fffaf7;
+}
+.page-hero,
+.projects,
+.about,
+.skills,
+.strengths {
+    background-color: transparent;
+}
+.nav-list a.active {
+    color: #a44f85;
+    border-bottom: 2px solid #a44f85;
+    padding-bottom: 4px;
+}
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero h1,
+    .page-hero h1 {
+        font-size: 36px;
+    }
+    .project-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-item {
+        width: 90%;
+        max-width: 350px;
+    }
+    .passport-card {
+        padding: 20px;
+    }
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.project-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
